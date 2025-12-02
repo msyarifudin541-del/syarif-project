@@ -1,22 +1,22 @@
 {
-  "name": "fullstack",
+  "name": "fullstack", 
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend Fullstack",
   "main": "server.js",
   "scripts": {
-    "api": "node server.js"
+    "api": "node server.js" 
   },
   "keywords": [],
-  "author": "",
+  "author": "Muhammad Syarifudin",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
+  "dependencies": { 
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "mysql2": "^3.15.3",
     "sequelize": "^6.37.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11" 
   }
 }
