@@ -37,12 +37,13 @@ router.put('/', async (req, res) => {
             nama, password: passwordBaru
         },   { where: { password: userData.password } });  
     
-        res.json({
-            users
+        res.status(200).json({
+            Users: {update: users[0]},
+            metadata: "user updated!"
         });
 
     }   else {
-        res.json({
+        res.status(400).json({
             error: " Data tidak ditemukan / password salah"
         })
     }  
